@@ -77,7 +77,7 @@ async function runScheduler() {
 
     await Log("backend", "info", "service", "done");
 
-    console.log("\n✅ RESULT:");
+    console.log("\n RESULT:");
     console.log("Max Impact:", dp[n][capacity]);
     console.log("Selected Tasks:", selectedTasks);
   } catch (err) {
