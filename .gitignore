@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# environment files
+.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# build outputs
+dist/
+build/
+
+# IDE settings (optional safety)
+.vscode/
+.idea/
+
+# coverage reports (if any testing used)
+coverage/
